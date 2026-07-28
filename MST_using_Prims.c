@@ -22,7 +22,7 @@ void printTree(int parent[], int graph[V][V], int vertices) {
 }
 
 void prim(int graph[V][V], int vertices) {
-  // Write your code here...
+  // Write your code here
   int parent[vertices];
   int key[vertices];
   bool mstSet[vertices];
