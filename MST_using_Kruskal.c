@@ -8,7 +8,6 @@ int find(int parent[], int i) {
   return parent[i] = find(parent, parent[i]);
 }
 
-// Helper function to perform union of two subsets
 void unionSets(int parent[], int u, int v) {
   int root_u = find(parent, u);
   int root_v = find(parent, v);
