@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void merge(int arr[], int low, int mid, int high) {
-  // write your code here..
+
   int n1 = mid - low + 1;
   int n2 = high - mid;
 
@@ -40,7 +40,6 @@ void merge(int arr[], int low, int mid, int high) {
 }
 
 void mergeSort(int arr[], int low, int high) {
-  // write your code here..
   if (low < high) {
     int mid = low + (high - low) / 2;
     mergeSort(arr, low, mid);
